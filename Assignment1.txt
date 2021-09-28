@@ -1,0 +1,145 @@
+1)Print Hello
+ package ab
+public class Hello
+{
+   public static void main(String[] args)
+    {
+
+       System.out.println("hello");
+       System.out.println("Akshay");
+    }
+}
+
+2) Greater_No
+public class Greater
+{
+    public static void main(String[] args)
+   { 
+     int a=15;
+     int b=10;
+     if(a>b)
+     System.out.println("Greater Number");
+     else
+     System.out.println("Smaller Number ");
+   }
+}
+
+3) Swap Two Numbers
+
+public class Swap
+{
+    public static void main(String[] args)
+   { 
+     int a=15;
+     int b=10;
+  
+     
+     System.out.println("A="+a + "B="+b);
+     int temp=a;
+        a=b;
+        b=temp;
+     System.out.println("A="+a + "B="+b);
+   }
+}
+
+4) Check with in rang
+
+ class Rang
+{
+    public static void main(String[] args)
+   { 
+     int a=15;
+  
+     if(a>=0 && a<=100)
+     System.out.println(With in rang);
+     else
+     System.out.println(Not With in rang);
+   }
+}
+
+5) Number Even or odd
+
+class Evenodd
+{
+    public static void main(String[] args)
+   { 
+     int a=20;
+     if(a%2==0)
+     System.out.println(Number is even);
+       else
+         System.out.println(Number is odd);
+   }
+}
+5) Square and Rectangle
+  class SQR
+{
+    public static void main(String[] args)
+   { 
+     int length=15;
+     int breath=48;
+  
+     if(length==breath)
+     System.out.println(Square);
+     else
+     System.out.println(Rectangle);
+   }
+}
+
+6)
+ class Fibonachi
+{
+    public static void main(String[] args)
+   { 
+int a=0;
+int b=1;
+int c=a+b;
+
+for(int i=0;i<=10;i++)
+  {
+   c
+  }
+
+ }
+
+}
+
+7) School Grade
+
+class Grade
+  {
+   public static void main(String[] args)
+    {
+      int a=10;
+
+       if (a<25)
+         System.out.println(F);
+
+       else 
+          {
+         if(a>=25 && a<=45)
+          System.out.println(E);
+           }
+        else 
+         { 
+          if(a>=45 && a<=65)
+          System.out.println(D);
+          }
+           else
+            {
+              if(a>=65 && a<=70)
+              System.out.println(C);
+              }
+             else 
+               {
+                if(a>=70 && a<=80)
+                System.out.println(B);   
+                 }
+                else 
+              {
+               if(a>=80 && a<=90)
+                  System.out.println(A);     
+                }  
+   
+}
+
+}
